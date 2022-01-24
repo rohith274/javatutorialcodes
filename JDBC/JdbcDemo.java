@@ -9,7 +9,7 @@ class JdbcDemo {
         String url = "jdbc:mysql://127.0.0.1:3306/employees_database";
         try {
             // Establish Cnnection Object
-            Connection conn = DriverManager.getConnection(url, "root", "rootroot");
+            Connection conn = DriverManager.getConnection(url, "db_name", "db_password");
             // Create a statement object to send to the database
             java.sql.Statement statement = conn.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM emplyees_tbl");
