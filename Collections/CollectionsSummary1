@@ -1,0 +1,34 @@
+001. Array
+    Declare size,items
+    ADV - Searching , sorting
+    DISADV - same data type , continuous allocation
+    If array once is declared then size cannot be changed.
+    So, different data structures are invented.
+010. ArrayList   
+    Declare - similar to database (Resizable)  
+    This is for and before java5
+    for newer version we got generics.
+    Declare - ArrayList<String>
+    This ArrayList stores similar tpe of data.
+    Doubles the size when a variable is added and copys old data to new one and then add our variable.
+011. LinkedList
+     Declare - Similar to array list (genric version)
+     we cannot assign primitive datatypes in angled
+     brackets. There is no class for(int). So, we use
+     complex classess like Integer in brackets   
+     int - wrapper class = Integer 
+     float - wrapper class = float
+     DataStructure : 
+          - Node Objects
+          - Nodes Linked together.
+     Resizing Formula :
+       - Like boxes connected with link.
+       - when a variable is added the a new box is created at end.
+ArrayList is faster for retrivng . Linked List is faster for maipulation.  
+--------------------------------------------------------------
+whenever we use the custom type as complex class.
+We get hash values unless get methods are used.
+--------------------------------------------------------------
+Linke dList , abstract lsit, array list work as same way in case of code. As parent of both lists is same
+i.e,, List      
+- we can also print both the lists at the same time.

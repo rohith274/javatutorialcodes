@@ -1,0 +1,8 @@
+HashMap
+-------------------------
+001 - Every row of data should have key and value as dictionary.
+010 - Declaring is simple.But keys and values are interfered.
+011 - Linked hashmap gives the as it is output as inserted.
+100 - hashmap has no specific way to output. SO, use linkedhasmapfor the order.
+101 - Access custom classes as previous datastructures is possible.
+111 - Key and Values can be different and wrapper classes are used. 
