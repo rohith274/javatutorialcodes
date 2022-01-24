@@ -1,0 +1,13 @@
+JDBC - java database connectivity
+Built in java library - we can communicate with the database.
+Process of connectivity whether local or online will be same.
+- There are several db vendors
+ ex Postgres, Microsoft , IBM , Oracle
+ Language used to manage these databases is SQL.
+ Java Application -> JDBC API -> Vendor Driver Software -> database
+- Adding microsoft driver to class path then microsoft db is connected to our application.
+- Install MySQl on your system. For understanding further concepts.
+------------------------------------
+1. define a varible connection
+2. import connection and follow the sample.
+3. it is hard to write a explaination so please folloe JdbcDemo.java

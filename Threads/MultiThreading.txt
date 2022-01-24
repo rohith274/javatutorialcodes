@@ -1,0 +1,44 @@
+0000 - Multi process running at same time.
+       Till now we wrote only single threaded code. We can write multithreaded programs.
+       Example : We can write a multi threaded code which downloads in one thread and other will be answers te user.
+                 We can have different flows simultaneously. Multiple lines of code at same time.
+
+0001 - Complexity is when threads are dead lock.  
+0010 - We created threads in thread1.java
+0011 - thread.sleep() - often to be used with try catch block
+0100 - Thread.currentThread.getName() - prints the name of the thread
+0101 - Thread.currentThread.setName() - to set name for the thread
+       Generate Constructer  -> Thread.currentThread.setName() = this.Name
+       Then the passing name in main method is printed.  
+0110 - when we implement runnable on code thread instead again sequential program starts.
+       To be thread class should extend by thread.
+
+0111 - For runnable we should use t1.start()
+1000 - We can use runnable for implementng the threads
+
+-------------------  THREAD SAFETY AND SYNC ----------------------
+
+1001 - If there are 2 threads but processor give control one thread at a time.If we have a problem 10 threads 
+       then processor gives control to 1 thread at a time.As, Round Robin technique and 
+       Preamptive Scheduling techniques work.
+       In this example thread3c1 value is added by threads continuously for first thread value = 1 if control
+       is shifted then thread 2 reads the value as other int.So, the code in thread3c1 is not thread safe. 
+       Automicity - we either run or not run.    
+       To Make automic we use SYNCRONIZED
+       ---------------------- SYNCHRONIZED ----------------------
+       - Once implemenatation enters the synchronized block. Either the code runs fully even the processor say to shift.
+       or not at all run ut once thread enter this block then it will be completed. 
+1010 - Shorter way to synchronized - public syncronized int getNext(){} for whole method
+        If one thread is running in synchronized code no other thread can enter that block.
+-------------------  THREAD SAFETY WITH COLLECTIONS ----------------------
+
+1011 - Situation : If one thread is inserting data and other thread should read data
+       - ArrayList and other sets are not thread safe.So, we must add synchronize to get the correct data.
+       - ArrayList slows down.So, java thought of not implememting multithreaded in array list.
+       - ArrayList is not syncronized. We connot use ArrayList in multithreading.
+       - when we use concurrent package we can go for synchronization or we can use synchronization in our code
+       - These will have thread safety.
+1100 - 
+1101 -
+1110 -
+1111 - 

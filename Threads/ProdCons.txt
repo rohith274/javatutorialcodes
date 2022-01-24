@@ -1,0 +1,11 @@
+000 - wait() and notify() 
+produce and consumer :
+Example 
+ chef(Producer) prepare meal places the meal on shelf(shared), server serves the meal (Consumer)
+if shelf == full
+   chef waits
+else if server removes
+    chef continue;
+ else 
+     server wait;
+           

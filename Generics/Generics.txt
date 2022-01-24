@@ -1,0 +1,12 @@
+Generics
+--------------------------------------
+0001 - If we create a array list and dont specify the type of data.We get a error
+0010 - So, java lang is type defined. When we declare soething we should/ must give type of the variable. 
+0011 - So, type safety is must for java. Generics keep the developer flexible without compramising type safety.
+0100 - Once we know Generics Java code will be completely understadable.
+0101 - We will make sure that works with any kind of datatype. Container should be irrespective of type.
+0110 - Now the container is generic.So, any kind of datatype can be passed it still works.
+0111 - In generic2.java I created a generic method which is similar to the generic class. That set method can accpet any ind of set and result union of the both sets.
+1000 - We can have any letter in the place of <E>. It is just a naming convention.
+1001 - We can have 2 different instance at the same type with different types of <int , float > etc, but Wrapper classes only.
+1011 - Type paramaters are generalised in this case.Usually in the java code internally parameters are ggeneralised.
